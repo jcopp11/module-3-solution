@@ -1,1 +1,42 @@
+body {
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  background-color: #F0F8FF;
+}
 
+h2 {
+  margin-bottom: 25px;
+}
+
+
+.big-block {
+  height: 1200px;
+  margin-top: 10px;
+  
+ 
+  padding: 1px 20px;
+  background-color: #B0E0E6;
+}
+
+
+
+.navbar-default .container-fluid {
+  background-color: #6495ED;
+}
+
+
+
+.navbar-default .navbar-brand {
+  color: black;
+  font-size: 150%;
+  font-weight: bolder;
+}
+
+
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    background-color: #87CEFA;
+    font-size: 120%;
+    font-weight: bolder;
+  }
+}
